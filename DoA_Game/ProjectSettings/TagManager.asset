@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Card
+  - GameManager
+  - SE_API
+  - RoundManager
+  - ListManager
+  - TwitchConnect
+  - ChatCommand
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background
+    uniqueID: 2026653521
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: slot1
+    uniqueID: 1251203541
+    locked: 0
+  - name: slot2
+    uniqueID: 2977127927
+    locked: 0
+  - name: slot3
+    uniqueID: 2723329877
+    locked: 0
+  - name: slot4
+    uniqueID: 2140946499
+    locked: 0
+  - name: slot5
+    uniqueID: 3532892569
+    locked: 0
+  - name: slot6
+    uniqueID: 3799523121
+    locked: 0
+  - name: slot7
+    uniqueID: 1117582723
+    locked: 0
+  - name: slot8
+    uniqueID: 4012444693
+    locked: 0
+  - name: slot9
+    uniqueID: 757362865
+    locked: 0
+  - name: slot10
+    uniqueID: 2922415271
+    locked: 0
+  - name: bountypanel
+    uniqueID: 2419049235
+    locked: 0

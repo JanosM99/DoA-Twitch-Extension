@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+<title>DoA Extension</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Logged out -->
+<div id="logged_out">
+    <img id="logo"src="images/logo.png" alt="logo">
+    <div id="loggedout_panel">
+        <p id="logintext">Jelentkezz be a folytatáshoz</p>
+        <button class="button" id="loginButton">Bejelentkezés</button>
+    </div>
+</div>
+<!-- Logged in -->
+<div id="logged_in">
+    <img id=doaImg src="images/all.png" alt="DoaImg">
+
+    <form id="bet" action="/select">
+        <!-- ROWS -->
+        <hr>
+        <div class="radio-box">
+            <input type="radio" name="bet" value="row1">
+            <label for="row 1">Sor 1</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="row2">
+            <label for="row 2">Sor 2</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="row3">
+            <label for="row 3">Sor 3</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="row4">
+            <label for="row 4">Sor 4</label>
+        </div>
+        <hr>
+    
+        <!-- COLUMNS -->
+        <div class="radio-box">
+            <input type="radio" name="bet" value="column2">
+            <label for="column 2">Oszlop 2</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="column3">
+            <label for="column 3">Oszlop 3</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="column4">
+            <label for="column 4">Oszlop 4</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="column5">
+            <label for="column 5">Oszlop 5</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="column6">
+            <label for="column 6">Oszlop 6</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="column7">
+            <label for="column 7">Oszlop 7</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="column8">
+            <label for="column 8">Oszlop 8</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="column9">
+            <label for="column 9">Oszlop 9</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="column10">
+            <label for="column 10">Oszlop 10</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="columnj">
+            <label for="column j">Oszlop J</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="columnq">
+            <label for="column q">Oszlop Q</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="columnk">
+            <label for="column k">Oszlop K</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="columna">
+            <label for="column a">Oszlop A</label>
+        </div>
+        <hr>
+    
+        <!-- COMBINATIONS -->
+        <div class="radio-box">
+            <input type="radio" name="bet" value="comb12">
+            <label for="comb 12">Sor 1 & 2</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="comb13">
+            <label for="comb 13">Sor 1 & 3</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="comb14">
+            <label for="comb 14">Sor 1 & 4</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="comb23">
+            <label for="comb 23">Sor 2 & 3</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="comb24">
+            <label for="comb 24">Sor 2 & 4</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="comb34">
+            <label for="comb 34">Sor 3 & 4</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="even">
+            <label for="even">Páros oszlopok</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="odd">
+            <label for="odd">Páratlan oszlopok</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="num">
+            <label for="num">Számok</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="face">
+            <label for="face">Figurás lapok</label>
+        </div>
+    
+        <div class="radio-box">
+            <input type="radio" name="bet" value="all">
+            <label for="all">Összes</label>
+        </div>
+        <hr>
+    </form>
+
+    <button class="button" id="betButton">Tétrakás</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

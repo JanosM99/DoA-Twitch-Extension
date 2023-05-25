@@ -1,0 +1,86 @@
+body {
+  background-color: #1B433B;
+  text-align: center;
+  color: white;
+}
+
+#logintext{
+  font-size:xx-large;
+  margin-top: -25px;
+}
+
+/* Buttons */
+.button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#loginButton{
+  margin-top: 25px;
+}
+
+#betButton
+{
+  margin-top: 25px;
+}
+
+/* Login/Logout */
+#logged_in,
+#logged_out {
+    display: none;
+}
+
+.logged_in #logged_in,
+.logged_out #logged_out {
+    display: block
+}
+
+#logo
+{
+  margin-top: 50px;
+}
+
+#loggedout_panel{ 
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 100px;
+}
+
+/* BetImg */
+#doaImg
+{
+  margin-top: -100px;
+  margin-bottom: -100px;
+  width: 1580px;
+  height: 800px;
+}
+
+/* Radio buttons */
+div.radio-box {
+  display: inline-block;
+  margin: 10px;
+  font-size: 25px;
+}
+.radio-box label {
+  display:block;
+  width: 100px;
+  text-align: center;
+}
+.radio-box input {
+  display: block;
+  margin: 0px auto;
+}
+input[type=radio] {
+  width: 25px;
+  height: 25px;
+}
